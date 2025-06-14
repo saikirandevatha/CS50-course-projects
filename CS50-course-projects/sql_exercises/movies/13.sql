@@ -1,0 +1,1 @@
+select people.name from stars,people,movies where people.name!= 'Kevin Bacon' AND movies.id = stars.movie_id  AND people.id = stars.person_id AND movies.id IN (select movies.id from movies, stars, people where movies.id = stars.movie_id AND people.id = stars.person_id AND people.name = 'Kevin Bacon' AND people.birth = '1958');

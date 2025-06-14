@@ -1,0 +1,4 @@
+To characterize a listener's aura, I would firts calculate the averages of top 100 songs in terms of energy valence and danceability. As energy represents intensity, valence the positivity and danceability the grooviness,
+we can use combination of these to come up with the aura of the listener. For example, high energy and high danceability can mean joyful whereas low valence and danceability can mean gloomuy but groovy. These emotional states can further be represented using colors.
+
+However, the above might not quite representative of the listener, given that we take into account the top 100 without considering the respective weights or the frequency or the number of times a particular song was played. Also, we can use additional data such as tempo and loudness and duration to come up with the aura more accurately.

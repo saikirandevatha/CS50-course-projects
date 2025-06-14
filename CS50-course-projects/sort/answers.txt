@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+
+How do you know?: Takes the lowest time if the list is random; but longest time if the list is random;
+                  this indicated the O(n) for sorted; and O(n^2) for random list
+
+sort2 uses: merge sort
+
+How do you know?: Takes less time than other sorts but similar time whether the list is random or sorted;
+                  this indicates O(nlogn) time for both the best and the worst cases
+
+sort3 uses: selection sort
+
+How do you know?: similar times for random and sorted lists; but both times its high
+                  this indicates O(n^2) for both the worst and the best cases
